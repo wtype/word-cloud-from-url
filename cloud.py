@@ -21,7 +21,7 @@ html = page.content
 words = words_in_html(html)
 # print(words)
 
-wordcloud = WordCloud(width=1000, height=700, max_font_size=70).generate(words)
+wordcloud = WordCloud(width=1000, height=700, max_font_size=150).generate(words)
 plt.figure()
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis("off")
