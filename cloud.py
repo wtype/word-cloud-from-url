@@ -15,7 +15,7 @@ def words_in_html(body):
     return u" ".join(t.strip() for t in visible_texts)
 
 # enter a url to make a word cloud
-url = 'https://en.wikipedia.org/wiki/Lauterbrunnen'
+url = raw_input('Please enter the URL you want a word cloud of...\n For example: https://en.wikipedia.org/wiki/Lauterbrunnen\n\n URL: ')
 page = requests.get(url)
 html = page.content
 words = words_in_html(html)
