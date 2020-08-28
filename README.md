@@ -16,5 +16,4 @@ git clone https://github.com/wtype/word-cloud-from-url.git
 cd word-cloud-from-url
 
 python cloud.py
-
 ```
