@@ -7,3 +7,14 @@ There are lots of free word cloud generators online. I tried to use one recently
 I'm not keen on simple services that ask so much, so here's a quick script to make your own word cloud images for free.
 
 📃 → ☁️
+
+## Build A Word Cloud
+
+```
+git clone https://github.com/wtype/word-cloud-from-url.git
+
+cd word-cloud-from-url
+
+python cloud.py
+
+```
