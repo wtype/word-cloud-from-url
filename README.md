@@ -8,7 +8,7 @@ I'm not keen on simple services that ask so much, so here's a quick script to ma
 
 📃 → ☁️
 
-## Build a Word Cloud
+## Create a Word Cloud
 
 ```
 git clone https://github.com/wtype/word-cloud-from-url.git
