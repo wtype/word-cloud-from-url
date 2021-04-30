@@ -17,3 +17,5 @@ cd word-cloud-from-url
 
 python cloud.py
 ```
+
+Enter your `url` and press enter.
